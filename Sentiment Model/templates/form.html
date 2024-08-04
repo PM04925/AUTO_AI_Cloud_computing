@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Information Form</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f9;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        .container {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            width: 50%;
+        }
+        h1 {
+            color: #333;
+        }
+        form {
+            display: flex;
+            flex-direction: column;
+        }
+        label {
+            margin-top: 10px;
+            margin-bottom: 5px;
+            font-weight: bold;
+        }
+        input[type="text"], select {
+            padding: 8px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            margin-bottom: 10px;
+        }
+        input[type="submit"] {
+            padding: 10px 15px;
+            background-color: #28a745;
+            border: none;
+            border-radius: 4px;
+            color: white;
+            cursor: pointer;
+            font-size: 16px;
+        }
+        input[type="submit"]:hover {
+            background-color: #218838;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Personal Information Form</h1>
+        <form method="post">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="Name">
+            
+            <label for="age">Age:</label>
+            <input type="text" id="age" name="Age">
+            
+            <label for="marital_status">Marital Status:</label>
+            <select id="marital_status" name="Marital Status">
+                <option value="1">Single</option>
+                <option value="2">Married</option>
+                <option value="3">Divorced</option>
+                <option value="4">Widowed</option>
+            </select>
+            
+            <label for="education_level">Education Level:</label>
+            <select id="education_level" name="Education Level">
+                <option value="1">High School</option>
+                <option value="2">Associate Degree</option>
+                <option value="3">Bachelor's Degree</option>
+                <option value="4">Master's Degree</option>
+                <option value="5">Doctorate</option>
+            </select>
+            
+            <label for="number_of_children">Number of Children:</label>
+            <input type="text" id="number_of_children" name="Number of Children">
+            
+            <label for="smoking_status">Smoking Status:</label>
+            <select id="smoking_status" name="Smoking Status">
+                <option value="1">Non-Smoker</option>
+                <option value="2">Occasional Smoker</option>
+                <option value="3">Regular Smoker</option>
+            </select>
+            
+            <label for="physical_activity_level">Physical Activity Level:</label>
+            <select id="physical_activity_level" name="Physical Activity Level">
+                <option value="1">Sedentary</option>
+                <option value="2">Lightly Active</option>
+                <option value="3">Moderately Active</option>
+                <option value="4">Very Active</option>
+            </select>
+            
+            <label for="employment_status">Employment Status:</label>
+            <select id="employment_status" name="Employment Status">
+                <option value="1">Employed</option>
+                <option value="2">Unemployed</option>
+                <option value="3">Student</option>
+                <option value="4">Retired</option>
+            </select>
+            
+            <label for="income">Income:</label>
+            <input type="text" id="income" name="Income">
+            
+            <label for="alcohol_consumption">Alcohol Consumption:</label>
+            <select id="alcohol_consumption" name="Alcohol Consumption">
+                <option value="1">None</option>
+                <option value="2">Occasional</option>
+                <option value="3">Regular</option>
+            </select>
+            
+            <label for="dietary_habits">Dietary Habits:</label>
+            <select id="dietary_habits" name="Dietary Habits">
+                <option value="1">Vegetarian</option>
+                <option value="2">Vegan</option>
+                <option value="3">Omnivore</option>
+                <option value="4">Pescatarian</option>
+            </select>
+            
+            <label for="sleep_patterns">Sleep Patterns:</label>
+            <select id="sleep_patterns" name="Sleep Patterns">
+                <option value="1">Poor</option>
+                <option value="2">Fair</option>
+                <option value="3">Good</option>
+                <option value="4">Excellent</option>
+            </select>
+            
+            <label for="history_of_mental_illness">History of Mental Illness:</label>
+            <select id="history_of_mental_illness" name="History of Mental Illness">
+                <option value="1">Yes</option>
+                <option value="2">No</option>
+            </select>
+            
+            <label for="history_of_substance_abuse">History of Substance Abuse:</label>
+            <select id="history_of_substance_abuse" name="History of Substance Abuse">
+                <option value="1">Yes</option>
+                <option value="2">No</option>
+            </select>
+            
+            <label for="family_history_of_depression">Family History of Depression:</label>
+            <select id="family_history_of_depression" name="Family History of Depression">
+                <option value="1">Yes</option>
+                <option value="2">No</option>
+            </select>
+            
+            <label for="chronic_medical_conditions">Chronic Medical Conditions:</label>
+            <select id="chronic_medical_conditions" name="Chronic Medical Conditions">
+                <option value="1">Yes</option>
+                <option value="2">No</option>
+            </select>
+            
+            <input type="submit" value="Submit">
+        </form>
+    </div>
+</body>
+</html>
